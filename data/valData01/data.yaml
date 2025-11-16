@@ -1,0 +1,10 @@
+names:
+- twin
+- break
+- miss
+- fault
+- Dia
+path: data/valData01
+test: test
+train: train
+val: val
