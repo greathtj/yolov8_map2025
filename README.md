@@ -47,9 +47,7 @@ A desktop application with a graphical user interface (GUI) for validating YOLO 
 
 ## Screenshot
 
-*(Add a screenshot of the application here)*
-
-![App Screenshot](map.png) (fps.png)
+![App Screenshot](map.png, fps.png)
 
 ## License
 
