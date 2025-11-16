@@ -96,10 +96,20 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_3.addLayout(self.gridLayout)
 
-        self.pushButtonRunValidation = QPushButton(self.frame)
-        self.pushButtonRunValidation.setObjectName(u"pushButtonRunValidation")
+        self.horizontalLayout_2 = QHBoxLayout()
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.pushButtonRunMAP = QPushButton(self.frame)
+        self.pushButtonRunMAP.setObjectName(u"pushButtonRunMAP")
 
-        self.verticalLayout_3.addWidget(self.pushButtonRunValidation)
+        self.horizontalLayout_2.addWidget(self.pushButtonRunMAP)
+
+        self.pushButtonRunFPS = QPushButton(self.frame)
+        self.pushButtonRunFPS.setObjectName(u"pushButtonRunFPS")
+
+        self.horizontalLayout_2.addWidget(self.pushButtonRunFPS)
+
+
+        self.verticalLayout_3.addLayout(self.horizontalLayout_2)
 
         self.textBrowserOutput = QTextBrowser(self.frame)
         self.textBrowserOutput.setObjectName(u"textBrowserOutput")
@@ -153,9 +163,10 @@ class Ui_MainWindow(object):
         self.label.setText(QCoreApplication.translate("MainWindow", u"YOLO Model Validation", None))
         self.pushButtonSelectModel.setText(QCoreApplication.translate("MainWindow", u"Select", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Model to validate", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Validation data", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Validation data folder", None))
         self.pushButtonSelectData.setText(QCoreApplication.translate("MainWindow", u"Select", None))
-        self.pushButtonRunValidation.setText(QCoreApplication.translate("MainWindow", u"\u290b Run Validation \u290b", None))
+        self.pushButtonRunMAP.setText(QCoreApplication.translate("MainWindow", u"\u290b Run mAP \u290b", None))
+        self.pushButtonRunFPS.setText(QCoreApplication.translate("MainWindow", u"\u290b Run fps \u290b", None))
         self.pushButtonExit.setText(QCoreApplication.translate("MainWindow", u"Exit", None))
     # retranslateUi
 

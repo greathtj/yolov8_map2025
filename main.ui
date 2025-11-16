@@ -92,7 +92,7 @@
          <item row="1" column="0">
           <widget class="QLabel" name="label_3">
            <property name="text">
-            <string>Validation data</string>
+            <string>Validation data folder</string>
            </property>
           </widget>
          </item>
@@ -109,11 +109,22 @@
         </layout>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButtonRunValidation">
-         <property name="text">
-          <string>⤋ Run Validation ⤋</string>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButtonRunMAP">
+           <property name="text">
+            <string>⤋ Run mAP ⤋</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonRunFPS">
+           <property name="text">
+            <string>⤋ Run fps ⤋</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="QTextBrowser" name="textBrowserOutput"/>
