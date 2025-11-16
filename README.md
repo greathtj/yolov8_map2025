@@ -52,4 +52,4 @@ A desktop application with a graphical user interface (GUI) for validating YOLO 
 
 ## License
 
-*(Add your license information here, e.g., MIT, GPL, etc.)*
+*(MIT, GPL)*
